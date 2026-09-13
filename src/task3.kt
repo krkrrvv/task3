@@ -18,11 +18,6 @@ fun main() {
             break
         }
     }
-    var bindig = ""
-    while (dig > 0)
-    {
-        bindig = (dig % 2).toString() + bindig
-        dig /= 2
-    }
+    val bindig = dig.toString(2)
     println("Введенное Вами число в двоичной системе счисления равно $bindig")
 }
